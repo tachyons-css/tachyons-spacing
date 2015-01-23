@@ -1,4 +1,6 @@
-@import "queries";
+@custom-media --breakpoint-not-small screen and (max-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
    SPACING
@@ -154,7 +156,7 @@
 .mhxl  {  margin-left: 8rem;  margin-right: 8rem; }
 .mhxxl  { margin-left: 16rem; margin-right: 16rem; }
 
-@include break(not-small) {
+@media (--breakpoint-not-small) {
   .pan-ns  {  padding: 0; }
   .paxs-ns {  padding: .25rem; }
   .pas-ns  {  padding: .5rem; }
@@ -282,7 +284,7 @@
 
 }
 
-@include break(medium) {
+@media (--breakpoint-medium) {
   .pan-m  {  padding: 0; }
   .paxs-m {  padding: .25rem; }
   .pas-m  {  padding: .5rem; }
@@ -411,7 +413,7 @@
 
 }
 
-@include break(large) {
+@media (--breakpoint-large) {
   .pan-l  {  padding: 0; }
   .paxs-l {  padding: .25rem; }
   .pas-l  {  padding: .5rem; }
