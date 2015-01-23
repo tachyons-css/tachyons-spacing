@@ -1,12 +1,12 @@
 {
   "name": "tachyons-spacing",
   "version": "0.3.0",
-  "style": "spacing.css",
+  "style": "tachyons-spacing.css",
   "homepage": "http://mrmrs.io/tachyons-spacing",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
