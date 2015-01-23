@@ -1,39 +1,29 @@
-// Gulp tasks for Tachyons
-
-// Load plugins
 var gulp = require('gulp'),
-    watch = require('gulp-watch'),
-    prefix = require('gulp-autoprefixer'),
-    minifyCSS = require('gulp-minify-css'),
-    sass = require('gulp-sass'),
+    rename = require('gulp-rename'),
+    basswork = require('gulp-basswork'),
+    minifyCss = require('gulp-minify-css'),
+    transform = require('vinyl-transform'),
     size = require('gulp-size'),
-    rename = require('gulp-rename');
+    webserver = require('gulp-webserver');
 
-// Task that compiles scss files down to good old css
-gulp.task('pre-process', function(){
-  gulp.src('./spacing.scss')
-      .pipe(watch('./spacing.scss', function(files) {
-        return files.pipe(sass())
-          .pipe(size({gzip: false, showFiles: true, title:'un-prefixed css'}))
-          .pipe(size({gzip: true, showFiles: true, title:'un-prefixed gzipped css'}))
-          .pipe(prefix())
-          .pipe(size({gzip: false, showFiles: true, title:'prefixed css'}))
-          .pipe(size({gzip: true, showFiles: true, title:'prefixed css'}))
-          .pipe(gulp.dest('./'))
-          .pipe(minifyCSS())
-          .pipe(rename('spacing.min.css'))
-          .pipe(gulp.dest('./'))
-          .pipe(size({gzip: false, showFiles: true, title:'minified css'}))
-          .pipe(size({gzip: true, showFiles: true, title:'minified css'}))
-      }));
+gulp.task('css', function() {
+  gulp.src('./src/tachyons-spacing.css')
+    .pipe(basswork())
+    .pipe(size({gzip: true, showFiles: true, title:'prefixed'}))
+    .pipe(gulp.dest('./'))
+    .pipe(minifyCss())
+    .pipe(size({gzip: true, showFiles: true, title:'minified'}))
+    .pipe(rename({ extname: '.min.css' }))
+    .pipe(gulp.dest('./'));
 });
 
-/*
-   DEFAULT TASK
-*/
-
-gulp.task('default', ['pre-process'], function(){
-  gulp.start('pre-process');
-  gulp.watch('*.scss', ['pre-process']);
+gulp.task('serve', function() {
+  gulp.src('.')
+    .pipe(webserver({}));
 });
+
+gulp.task('default', ['css', 'serve'], function() {
+  gulp.watch(['./src/**/*'], ['css']);
+});
+
 
