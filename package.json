@@ -2,7 +2,7 @@
   "name": "tachyons-spacing",
   "version": "1.0.0",
   "style": "tachyons-spacing.css",
-  "homepage": "http://mrmrs.io/tachyons-spacing",
+  "homepage": "http://github.com/mrmrs/tachyons-spacing",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
