@@ -1,7 +1,13 @@
+/* Variables */
+
+
+
+/* Media Queries */
+
 /*
    SPACING
 
-   An eight step powers of two scale ranging from 0 to 16rem.
+   An eight step powers of two scale ranging from var(--spacing-none) to 16rem.
 
    Legend:
 
