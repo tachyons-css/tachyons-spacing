@@ -1,6 +1,6 @@
 {
   "name": "tachyons-spacing",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "style": "tachyons-spacing.css",
   "homepage": "http://github.com/mrmrs/tachyons-spacing",
   "description": "Performance based css module.",
