@@ -259,7 +259,7 @@
   margin-right: 16rem;
 }
 
-@media screen and (maxl-width: 48em) {
+@media screen and (max-width: 48em) {
   .pan-ns  {  padding: 0; }
   .paxs-ns {  padding: .25rem; }
   .pas-ns  {  padding: .5rem; }
@@ -479,7 +479,7 @@
 
 }
 
-@media screen and (min-width: 48em) and (maxl-width: 64em) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .pan-m  {  padding: 0; }
   .paxs-m {  padding: .25rem; }
   .pas-m  {  padding: .5rem; }
