@@ -805,7 +805,7 @@ git clone git@github.com:mrmrs/tachyons-spacing
     padding-left: 0;
     padding-right: 0;
   }
-  .pvxs-l {
+  .phxs-l {
     padding-left: .25rem;
     padding-right: .25rem;
   }
