@@ -20,7 +20,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "bl": "^0.9.4",
     "cssstats": "^2.0.1",
     "perfectionist": "^1.3.1",
   },
