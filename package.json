@@ -20,6 +20,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "tachyons-cli": "^0.3.1"
   },
   "scripts": {
     "start": "node build.js",
