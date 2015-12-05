@@ -34,7 +34,6 @@
     "postcss-import": "^6.2.0",
     "readable-stream": "^1.0.33",
     "through2": "^0.6.3",
-    "vinyl-transform": "^1.0.0"
   },
   "scripts": {
     "start": "node build.js",
