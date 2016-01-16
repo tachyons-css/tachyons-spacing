@@ -2,15 +2,15 @@
   "name": "tachyons-spacing",
   "version": "4.0.1",
   "style": "tachyons-spacing.css",
-  "homepage": "http://github.com/mrmrs/tachyons-spacing",
+  "homepage": "http://github.com/tachyons-css/tachyons-spacing",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-spacing.git"
+    "url": "http://github.com/tachyons-css/tachyons-spacing.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-spacing/issues",
+    "url": "https://github.com/tachyons-css/tachyons-spacing/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
