@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-2167 | 446 | 572
+2165 | 446 | 572
 ---|---|---
 bytes | selectors | declarations
 
@@ -198,7 +198,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .mhxl { margin-left: 4rem; margin-right: 4rem; }
 .mhxxl { margin-left: 8rem; margin-right: 8rem; }
 .mhxxxl { margin-left: 16rem; margin-right: 16rem; }
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 48em) {
  .pan-ns { padding: 0; }
  .paxs-ns { padding: .25rem; }
  .pas-ns { padding: .5rem; }
