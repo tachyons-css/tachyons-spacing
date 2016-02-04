@@ -1,10 +1,10 @@
-# tachyons-spacing 4.0.3
+# tachyons-spacing 4.0.5
 
 Performance based css module.
 
 #### Stats
 
-2165 | 446 | 572
+2153 | 443 | 566
 ---|---|---
 bytes | selectors | declarations
 
@@ -136,7 +136,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .pvxxl { padding-top: 8rem; padding-bottom: 8rem; }
 .pvxxxl { padding-top: 16rem; padding-bottom: 16rem; }
 .phn { padding-left: 0; padding-right: 0; }
-.pvxs { padding-left: .25rem; padding-right: .25rem; }
 .phs { padding-left: .5rem; padding-right: .5rem; }
 .phm { padding-left: 1rem; padding-right: 1rem; }
 .phl { padding-left: 2rem; padding-right: 2rem; }
@@ -248,7 +247,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .pvxxl-ns { padding-top: 8rem; padding-bottom: 8rem; }
  .pvxxxl-ns { padding-top: 16rem; padding-bottom: 16rem; }
  .phn-ns { padding-left: 0; padding-right: 0; }
- .pvxs-ns { padding-left: .25rem; padding-right: .25rem; }
  .phs-ns { padding-left: .5rem; padding-right: .5rem; }
  .phm-ns { padding-left: 1rem; padding-right: 1rem; }
  .phl-ns { padding-left: 2rem; padding-right: 2rem; }
@@ -361,7 +359,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .pvxxl-m { padding-top: 8rem; padding-bottom: 8rem; }
  .pvxxxl-m { padding-top: 16rem; padding-bottom: 16rem; }
  .phn-m { padding-left: 0; padding-right: 0; }
- .pvxs-m { padding-left: .25rem; padding-right: .25rem; }
  .phs-m { padding-left: .5rem; padding-right: .5rem; }
  .phm-m { padding-left: 1rem; padding-right: 1rem; }
  .phl-m { padding-left: 2rem; padding-right: 2rem; }

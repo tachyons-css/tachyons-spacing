@@ -1,6 +1,6 @@
 {
   "name": "tachyons-spacing",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "style": "src/tachyons-spacing.css",
   "description": "Performance based css module.",
   "keywords": [
@@ -19,9 +19,11 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "immutable-css-cli": "^1.1.0",
     "tachyons-cli": "^0.3.3"
   },
   "scripts": {
+    "immutable": "immutable-css src/tachyons-spacing.css --strict",
     "start": "tachyons src/tachyons-spacing.css > css/tachyons-spacing.css && tachyons src/tachyons-spacing.css --minify > css/tachyons-spacing.min.css && tachyons src/tachyons-spacing.css --generate-docs --package=../../package.json > readme.md"
   }
 }
