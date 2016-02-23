@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-2234 | 446 | 572
+2274 | 446 | 572
 ---|---|---
 bytes | selectors | declarations
 
@@ -57,6 +57,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 ```css
 /* Variables */
+/* Spacing Scale - based on a ratio of 1:2 */
 /* Media Queries */
 /*
    SPACING
@@ -77,14 +78,14 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    b = bottom
    l = left
 
-   n = none
-   1 = extra small
-   s = small
-   m = medium
-   l = large
-   x = extra
-   5 = extra large
-   xxx = extra extra large
+   0 = none
+   1 = 1st step in spacing scale
+   2 = 2nd step in spacing scale
+   3 = 3rd step in spacing scale
+   4 = 4th step in spacing scale
+   5 = 5th step in spacing scale
+   6 = 6th step in spacing scale
+   7 = 7th step in spacing scale
 
 */
 .pa0 { padding: 0; }
