@@ -1,4 +1,4 @@
-# tachyons-spacing 4.0.4
+# tachyons-spacing 5.0.0
 
 Performance based css module.
 
@@ -56,7 +56,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 ## The CSS
 
 ```css
-/* Variab4es */
+/* Variables */
 /* Media Queries */
 /*
    SPACING
