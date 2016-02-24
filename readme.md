@@ -1,4 +1,4 @@
-# tachyons-spacing 5.0.0
+# tachyons-spacing 5.0.1
 
 Performance based css module.
 
@@ -137,7 +137,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .pv6 { padding-top: 8rem; padding-bottom: 8rem; }
 .pv7 { padding-top: 16rem; padding-bottom: 16rem; }
 .ph0 { padding-left: 0; padding-right: 0; }
-.pv1 { padding-left: .25rem; padding-right: .25rem; }
+.ph1 { padding-left: .25rem; padding-right: .25rem; }
 .ph2 { padding-left: .5rem; padding-right: .5rem; }
 .ph3 { padding-left: 1rem; padding-right: 1rem; }
 .ph4 { padding-left: 2rem; padding-right: 2rem; }
