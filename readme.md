@@ -1,4 +1,4 @@
-# tachyons-spacing 5.0.1
+# tachyons-spacing 5.0.2
 
 Performance based css module.
 
