@@ -19,9 +19,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^0.3.3"
+    "tachyons-cli": "^0.3.3",
+    "watch": "^0.17.1"
   },
   "scripts": {
-    "start": "tachyons src/tachyons-spacing.css > css/tachyons-spacing.css && tachyons src/tachyons-spacing.css --minify > css/tachyons-spacing.min.css && tachyons src/tachyons-spacing.css --generate-docs --package=../../package.json > readme.md"
+    "start": "npm run build:watch",
+    "build:css": "tachyons src/tachyons-spacing.css > css/tachyons-spacing.css",
+    "build:minify": "tachyons src/tachyons-spacing.css --minify > css/tachyons-spacing.min.css",
+    "build:docs": "tachyons src/tachyons-spacing.css --generate-docs --package=../../package.json > readme.md",
+    "build": "npm run build:css && npm run build:minify && npm run build:docs",
+    "build:watch": "watch 'npm run build' ./src"
   }
 }
