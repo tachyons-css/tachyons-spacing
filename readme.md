@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-2274 | 446 | 572
+2272 | 446 | 572
 ---|---|---
 bytes | selectors | declarations
 
@@ -491,7 +491,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .ma5-l { margin: 4rem; }
  .ma6-l { margin: 8rem; }
  .ma7-l { margin: 16rem; }
- .mlo-l { margin-left: 0; }
+ .ml0-l { margin-left: 0; }
  .ml1-l { margin-left: .25rem; }
  .ml2-l { margin-left: .5rem; }
  .ml3-l { margin-left: 1rem; }
