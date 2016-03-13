@@ -1,10 +1,10 @@
-# tachyons-spacing 5.0.2
+# tachyons-spacing 5.0.5
 
 Performance based css module.
 
 #### Stats
 
-2272 | 446 | 572
+2275 | 446 | 572
 ---|---|---
 bytes | selectors | declarations
 
@@ -296,7 +296,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mt5-ns { margin-top: 4rem; }
  .mt6-ns { margin-top: 8rem; }
  .mt7-ns { margin-top: 16rem; }
- .mv0-ns { margin-top: 0; margin-bottom: 0rem; }
+ .mv0-ns { margin-top: 0; margin-bottom: 0; }
  .mv1-ns { margin-top: .25rem; margin-bottom: .25rem; }
  .mv2-ns { margin-top: .5rem; margin-bottom: .5rem; }
  .mv3-ns { margin-top: 1rem; margin-bottom: 1rem; }
