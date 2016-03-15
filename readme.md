@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-2275 | 446 | 572
+2283 | 448 | 576
 ---|---|---
 bytes | selectors | declarations
 
@@ -193,6 +193,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .mv6 { margin-top: 8rem; margin-bottom: 8rem; }
 .mv7 { margin-top: 16rem; margin-bottom: 16rem; }
 .mh0 { margin-left: 0; margin-right: 0; }
+.mh1 { margin-left: .25rem; margin-right: .25rem; }
 .mh2 { margin-left: .5rem; margin-right: .5rem; }
 .mh3 { margin-left: 1rem; margin-right: 1rem; }
 .mh4 { margin-left: 2rem; margin-right: 2rem; }
@@ -305,6 +306,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mv6-ns { margin-top: 8rem; margin-bottom: 8rem; }
  .mv7-ns { margin-top: 16rem; margin-bottom: 16rem; }
  .mh0-ns { margin-left: 0; margin-right: 0; }
+ .mh1-ns { margin-left: .25rem; margin-right: .25rem; }
  .mh2-ns { margin-left: .5rem; margin-right: .5rem; }
  .mh3-ns { margin-left: 1rem; margin-right: 1rem; }
  .mh4-ns { margin-left: 2rem; margin-right: 2rem; }
