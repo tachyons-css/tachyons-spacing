@@ -1,10 +1,10 @@
-# tachyons-spacing 5.0.5
+# tachyons-spacing 5.0.8
 
 Performance based css module.
 
 #### Stats
 
-2283 | 448 | 576
+2276 | 448 | 576
 ---|---|---
 bytes | selectors | declarations
 
@@ -63,7 +63,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
    SPACING
 
    An eight step powers of two scale ranging from 0 to 16rem.
-   Namespaces are composab4e and thus high4y grockab4e - check the legend below
+   Namespaces are composable and thus highly grockable - check the legend below
 
    Legend:
 
@@ -184,7 +184,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .mt5 { margin-top: 4rem; }
 .mt6 { margin-top: 8rem; }
 .mt7 { margin-top: 16rem; }
-.mv0 { margin-top: 0; margin-bottom: 0rem; }
+.mv0 { margin-top: 0; margin-bottom: 0; }
 .mv1 { margin-top: .25rem; margin-bottom: .25rem; }
 .mv2 { margin-top: .5rem; margin-bottom: .5rem; }
 .mv3 { margin-top: 1rem; margin-bottom: 1rem; }
@@ -411,7 +411,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mt5-m { margin-top: 4rem; }
  .mt6-m { margin-top: 8rem; }
  .mt7-m { margin-top: 16rem; }
- .mv0-m { margin-top: 0; margin-bottom: 0rem; }
+ .mv0-m { margin-top: 0; margin-bottom: 0; }
  .mv1-m { margin-top: .25rem; margin-bottom: .25rem; }
  .mv2-m { margin-top: .5rem; margin-bottom: .5rem; }
  .mv3-m { margin-top: 1rem; margin-bottom: 1rem; }
@@ -525,7 +525,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .mt5-l { margin-top: 4rem; }
  .mt6-l { margin-top: 8rem; }
  .mt7-l { margin-top: 16rem; }
- .mv0-l { margin-top: 0; margin-bottom: 0rem; }
+ .mv0-l { margin-top: 0; margin-bottom: 0; }
  .mv1-l { margin-top: .25rem; margin-bottom: .25rem; }
  .mv2-l { margin-top: .5rem; margin-bottom: .5rem; }
  .mv3-l { margin-top: 1rem; margin-bottom: 1rem; }
