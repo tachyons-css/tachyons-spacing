@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-2276 | 448 | 576
+2273 | 448 | 576
 ---|---|---
 bytes | selectors | declarations
 
@@ -250,7 +250,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .pv6-ns { padding-top: 8rem; padding-bottom: 8rem; }
  .pv7-ns { padding-top: 16rem; padding-bottom: 16rem; }
  .ph0-ns { padding-left: 0; padding-right: 0; }
- .pv1-ns { padding-left: .25rem; padding-right: .25rem; }
+ .ph1-ns { padding-left: .25rem; padding-right: .25rem; }
  .ph2-ns { padding-left: .5rem; padding-right: .5rem; }
  .ph3-ns { padding-left: 1rem; padding-right: 1rem; }
  .ph4-ns { padding-left: 2rem; padding-right: 2rem; }
@@ -364,7 +364,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .pv6-m { padding-top: 8rem; padding-bottom: 8rem; }
  .pv7-m { padding-top: 16rem; padding-bottom: 16rem; }
  .ph0-m { padding-left: 0; padding-right: 0; }
- .pv1-m { padding-left: .25rem; padding-right: .25rem; }
+ .ph1-m { padding-left: .25rem; padding-right: .25rem; }
  .ph2-m { padding-left: .5rem; padding-right: .5rem; }
  .ph3-m { padding-left: 1rem; padding-right: 1rem; }
  .ph4-m { padding-left: 2rem; padding-right: 2rem; }
